@@ -40,6 +40,12 @@ import { AppState } from './app.service';
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         About
       </a>
+      
+      <a [routerLink]=" ['./list'] "
+         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
+        List
+      </a>
+      
     </nav>
 
     <main>
